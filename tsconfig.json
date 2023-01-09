@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "preserveSymlinks": true,
+    "skipLibCheck": true,
+    "allowJs": true
+  },
+  "include": ["isorm/**/*.ts", "react-isorm/**/*.ts", "./index.d.ts"]
+}

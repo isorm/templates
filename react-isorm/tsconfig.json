@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "preserveSymlinks": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": true
+  },
+  "include": ["src", "pages", "components", "../index.d.ts"],
+  "exclude": ["build", "node_modules"]
+}

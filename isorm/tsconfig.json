@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "preserveSymlinks": true,
+    "skipLibCheck": true,
+    "allowJs": true
+  },
+  "include": ["src", "../index.d.ts"],
+  "exclude": ["dist", "node_modules"]
+}
